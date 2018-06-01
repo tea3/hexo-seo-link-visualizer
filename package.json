@@ -8,7 +8,7 @@
     "express": "^4.16.3",
     "hexo-fs": "^0.2.2",
     "js-yaml": "^3.8.3",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.1"
   },
   "description": "Analyze link and visualize the site structure for Hexo.",
   "devDependencies": {},

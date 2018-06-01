@@ -1,0 +1,44 @@
+{
+  "name": "hexo-seo-link-visualizer",
+  "version": "0.0.1",
+  "main": "index",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "hexo-fs": "^0.2.2",
+    "js-yaml": "^3.8.3",
+    "mkdirp": "^0.5.1",
+  },
+  "description": "Analyze link and visualize the site structure for Hexo.",
+  "devDependencies": {},
+  "directories": {
+    "lib": "./lib"
+  },
+  "author": {
+    "email": "tea3gtinfo@gmail.com",
+    "name": "tea3",
+    "url": "https://photo-tea.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/tea3/hexo-seo-link-visualizer/issues"
+  },
+  "keywords": [
+    "hexo",
+    "blog",
+    "link",
+    "seo" ,
+    "analyzer"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "tea3gt",
+      "email": "tea3gtinfo@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tea3/hexo-seo-link-visualizer.git"
+  }
+}

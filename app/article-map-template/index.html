@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>Article Map</title>
+    <meta charset="utf-8" />
+    <meta content="noindex" name="robots" />
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" />
+    <meta content="article map" name="description" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.20.0/vis.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.20.0/vis.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/asset/article-map.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="disableSearch" id="searchWindow">
+        <div id="search-wrapper">
+            <div id="searchBar">
+                <div class="inputArea"><input placeholder="Enter the keyword" /></div><a class="closeWindow" href="#"><i class="fa fa-fw fa-times-circle"></i></a></div>
+            <div id="searchResult">
+                <ul></ul>
+            </div>
+        </div>
+    </div><a href="#" id="searchBtn" title="Search the node&#39;s location by keyword."><i class="fa fa-fw fa-search"></i></a><a href="#" id="locateBtn" title="Move to the position of the selected node."><i class="fa fa-map-marker"></i></a><a href="#" id="zoom2Btn"
+        title="Extend the scale greatly"><i class="fa fa-search-plus"></i><span class="ilabel">2x</span></a><a href="#" id="zoomBtn" title="Enlarge the scale."><i class="fa fa-search-plus"></i><span class="ilabel">1x</span></a><a href="#" id="initPosBtn"
+        title="Returns to the initial scale and initial position."><i class="fa fa-home"></i></a>
+    <div id="nt-wrapper">
+        <div id="loading">
+            <p>&nbsp;<i class="fa fa-fw fa-hourglass-half"></i>drawing now.</p>
+        </div>
+        <div class="notSelect" id="msg">
+            <div id="msg-wrapper">
+                <p class="title"><span></span></p>
+                <p class="source"><a class="lounch" href="#" target="_blank"><i class="fa fa-fw fa-eye"></i><span>permalink</span></a><i class="fa fa-fw fa-code"></i><span class="sor"></span></p>
+                <p class="id"></p>
+            </div>
+        </div>
+        <div class="disableInfo" id="info">
+            <div id="info-label">
+                <p><a href="#in">in<span class="cnt" id="cntIn"></span></a><a href="#out">out<span class="cnt" id="cntOut"></span></a><a href="#external">Ext<span class="cnt" id="cntExt"></span></a><a href="#toc">Toc<span class="cnt" id="cntToc"></span></a></p>
+            </div>
+            <div id="info-wapper">
+                <div id="scll">
+                    <div class="grd" id="internal">
+                        <h4>Internal Link</h4>
+                        <div id="in">
+                            <h5>in</h5>
+                            <ul></ul>
+                        </div>
+                        <div id="out">
+                            <h5>out</h5>
+                            <ul></ul>
+                        </div>
+                    </div>
+                    <div class="grd" id="external">
+                        <h4>External Link</h4>
+                        <ul></ul>
+                    </div>
+                    <div class="grd" id="toc">
+                        <h4>toc</h4>
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mynetwork"></div>
+    </div>
+    <script src="/article-map-data.js"></script>
+    <script src="/asset/article-map.js"></script>
+</body>
+
+</html>

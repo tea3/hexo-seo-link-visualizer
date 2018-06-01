@@ -1,0 +1,280 @@
+#mynetwork,#nt-wrapper,body {
+    margin: 0;
+    padding: 0
+}
+
+#info-label,#loading,#loading p,#msg,#mynetwork,#scll {
+    width: 100%
+}
+
+#loading p,.cnt {
+    text-align: center
+}
+
+#info,#msg,.cnt {
+    color: #FFF
+}
+
+#nt-wrapper,#search-wrapper,body {
+    position: relative
+}
+
+#info,#info-label,#loading,#msg,#search-wrapper .closeWindow,#searchWindow {
+    position: absolute
+}
+
+#info,#loading,#mynetwork,#scll {
+    height: 100%
+}
+
+a {
+    text-decoration: none
+}
+
+#mynetwork {
+    border: 1px solid #CCC
+}
+
+#nt-wrapper {
+    width: 100%
+}
+
+#loading {
+    z-index: 999;
+    background: #FFF;
+    color: #222
+}
+
+#loading p {
+    margin: 20% 0 0;
+    display: block
+}
+
+#info {
+    padding: 0;
+    width: 25%;
+    background: #222;
+    z-index: 995;
+    bottom: 0;
+    word-wrap: break-word
+}
+
+.disableInfo {
+    right: -9999px
+}
+
+.viewInfo {
+    right: 0
+}
+
+#info-label {
+    background-color: #000;
+    top: 0;
+    left: 0;
+    padding: 6em 0 0;
+    font-size: .6em
+}
+
+#info-label p {
+    margin: .5em 1em
+}
+
+#info-label p a {
+    color: #CCC;
+    padding: .2em
+}
+
+.cnt {
+    background-color: #333;
+    border-radius: 3px;
+    padding: .4em;
+    margin: 0 .3em;
+    display: inline-block;
+    font-weight: 700
+}
+
+#msg p.id,.disableSearch {
+    display: none
+}
+
+#msg i,#scll h4,#scll ul li a {
+    color: #CCC
+}
+
+#info-wapper {
+    padding: 6em 0 1em 8%;
+    height: calc(100% - 7em);
+    width: 92%;
+    overflow: hidden
+}
+
+#scll {
+    overflow: auto
+}
+
+#scll h4 {
+    font-size: .85em
+}
+
+#scll h5 {
+    font-size: .8em;
+    color: #AAA
+}
+
+#scll ul {
+    font-size: .6em;
+    letter-spacing: .05em;
+    padding: 0 0 0 1.8em
+}
+
+#scll ul li {
+    margin: .5em 0
+}
+
+.grd {
+    margin: 0 1em 0 0
+}
+
+#msg {
+    background: #222;
+    z-index: 996;
+    font-family: Menlo,Consolas,Monaco,Consolas,monospace,arial,sans-serif
+}
+
+#msg p.title {
+    margin: 0;
+    font-size: .8em;
+    letter-spacing: .05em;
+    white-space: nowrap
+}
+
+#msg p.source {
+    margin: .2em 0 0;
+    font-size: .6em;
+    letter-spacing: .02em
+}
+
+#msg span {
+    margin: 0 0 0 .5em
+}
+
+.notSelect {
+    top: -1000px
+}
+
+.msgSelect {
+    top: 0
+}
+
+#initPosBtn,#locateBtn,#searchBtn,#zoom2Btn,#zoomBtn {
+    position: absolute;
+    width: 2.4em;
+    line-height: 2.4em;
+    height: 2.4em;
+    font-size: 1.2em;
+    text-align: center;
+    bottom: 1em;
+    background-color: #222;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+    color: #FFF
+}
+
+#searchBtn {
+    z-index: 997;
+    left: 1em
+}
+
+#locateBtn {
+    z-index: 994;
+    left: 3.6em
+}
+
+#zoom2Btn {
+    z-index: 993;
+    left: 6.2em
+}
+
+#zoomBtn {
+    z-index: 992;
+    left: 8.8em
+}
+
+#initPosBtn {
+    z-index: 991;
+    left: 11.4em
+}
+
+.ilabel {
+    font-size: .5em
+}
+
+#search-wrapper {
+    padding: 1em
+}
+
+#search-wrapper .inputArea input {
+    padding: .5em;
+    font-size: 1.2em;
+    color: #888;
+    width: 60%
+}
+
+#search-wrapper .inputArea input:placeholder-shown {
+    color: #CCC
+}
+
+#search-wrapper .inputArea input::-webkit-input-placeholder {
+    color: #CCC
+}
+
+#search-wrapper .closeWindow {
+    color: #AAA;
+    top: 1em;
+    right: 2em;
+    font-size: 1.2em
+}
+
+#searchWindow {
+    background-color: #FFF;
+    z-index: 998;
+    width: 100%;
+    height: 100%
+}
+
+.viewSearch {
+    display: block
+}
+
+#searchResult {
+    font-size: .8em
+}
+
+#searchResult li {
+    margin: .8em 0
+}
+
+#searchResult li a {
+    color: #555
+}
+
+.srSource {
+    font-size: .5em;
+    color: #888
+}
+
+.lounch,.lounch i {
+    color: #FFF
+}
+
+#msg-wrapper {
+    margin: .5em 1em
+}
+
+.lounch {
+    display: inline-block;
+    background-color: #0074bf;
+    padding: .4em .5em;
+    margin: 0 1em 0 0;
+    border-radius: 3px
+}

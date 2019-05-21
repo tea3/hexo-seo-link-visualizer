@@ -6,7 +6,7 @@ Analyze link and visualize the site structure for [Hexo](https://github.com/hexo
 
 ## Overview
 
-Plugin analyze internal links and external links and Table of Contents in your site. This plugin can be used to visualize internal link and find quickly problems for site structure. [Show Article Map for WordPress](https://www.naenote.net/entry/show-article-map) you gave me was very helpful :)
+Plugin analyze internal links and external links and Table of Contents in your site. This plugin can be used to visualize internal link and find quickly problems for site structure. [Show Article Map for WordPress](https://www.naenote.net/entry/show-article-map) was very helpful to me :D
 
 ## Installation
 

@@ -1,6 +1,6 @@
 # hexo-seo-link-visualizer
 
-Analyze link and visualize the site structure for [Hexo](https://github.com/hexojs/hexo) .
+Analyze link and visualize the site structure for [Hexo](https://github.com/hexojs/hexo) . [Show Article Map for WordPress](https://www.naenote.net/entry/show-article-map) you gave me was very helpful :)
 
 ![Screenshot](img/cover.png)
 

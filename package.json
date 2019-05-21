@@ -1,6 +1,6 @@
 {
   "name": "hexo-seo-link-visualizer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index",
   "dependencies": {
     "body-parser": "^1.18.3",
